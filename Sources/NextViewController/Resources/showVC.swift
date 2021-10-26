@@ -9,12 +9,14 @@ import Foundation
 import UIKit
 
 class showVC : UIViewController {
+    @IBOutlet var myLabel: UILabel!
     
-    @IBOutlet var label: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .yellow
+        self.myLabel.text = "test.."
     }
     
     
