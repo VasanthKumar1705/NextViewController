@@ -25,5 +25,8 @@ class showVC : UIViewController {
         self.view.addSubview(label)
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        myLabel.text = "Label 00"
+    }
     
 }
