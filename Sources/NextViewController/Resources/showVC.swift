@@ -15,8 +15,6 @@ class showVC : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .yellow
-        
-        self.label.text = "Next ViewController"
     }
     
     

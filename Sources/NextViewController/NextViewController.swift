@@ -7,6 +7,7 @@ public struct NextViewController {
     
     public func call(ViewController:UIViewController) {
         let VC = showVC()
+        VC.label.text = "Next ViewController"
         ViewController.present(VC, animated: true, completion: nil)
     }
 }
