@@ -4,7 +4,7 @@ public struct NextViewController {
     }
     
     public func call(ViewController:UIViewController) {
-        let VC = showVC()
+        let VC = showVC(nibName: "showVC", bundle: nil)
         ViewController.present(VC, animated: true, completion: nil)
     }
 }
